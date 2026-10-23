@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LifeStateLab</string>
+
+    <!-- MainActivity (Vertical e Horizontal) -->
+    <string name="title_activity">Grupo 3: Lab de Ciclo de Vida &amp; Estado</string>
+    <string name="volatile_counter_format">1. Variável Simples: %d (Perde-se na Rotação)</string>
+    <string name="bundle_counter_format">2. onSaveInstanceState (Bundle): %d</string>
+    <string name="vm_counter_format">3. ViewModel (Em RAM): %d</string>
+    <string name="volatile_counter_land_format">1. Variável Simples: %d</string>
+    <string name="bundle_counter_land_format">2. onSaveInstanceState: %d</string>
+    <string name="vm_counter_land_format">3. ViewModel: %d</string>
+    <string name="btn_inc_counters">+ Contadores</string>
+    <string name="btn_open_fragment">Abrir Fragment</string>
+    <string name="btn_close_fragment">Fechar Fragment</string>
+    <string name="lbl_lifecycle_monitor">Monitor de Ciclo de Vida (Activity &amp; Fragment):</string>
+    <string name="lbl_logs_monitor_land">Monitor de Logs (Activity &amp; Fragment):</string>
+    <string name="btn_clear_logs">Limpar</string>
+
+    <!-- DetailFragment -->
+    <string name="fragment_status_active">Fragment: onViewCreated() ativo</string>
+    <string name="hint_saved_state">Texto com SavedStateHandle (Process Death)</string>
+    <string name="flow_counter_format">StateFlow: %d</string>
+    <string name="livedata_counter_format">LiveData: %d</string>
+    <string name="btn_inc_flow">+ Flow</string>
+    <string name="btn_inc_livedata">+ LiveData</string>
+    <string name="toast_destroy_view">Fragment: onDestroyView() executado</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_screen">#F8F9FA</color>
+    <color name="bg_card_fragment">#E3F2FD</color>
+    <color name="bg_log_box">#EEEEEE</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#555555</color>
+    <color name="text_log">#212121</color>
+    <color name="border_box">#CCCCCC</color>
+
+    <!-- Cores dos Indicadores de Estado -->
+    <color name="state_volatile">#C62828</color> <!-- Vermelho -->
+    <color name="state_bundle">#2E7D32</color>   <!-- Verde -->
+    <color name="state_vm">#1565C0</color>       <!-- Azul -->
+</resources>
